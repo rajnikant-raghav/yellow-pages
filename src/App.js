@@ -9,7 +9,8 @@ const App = () => {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path='/adduser' element={<AddData/>} />
+    
+      <Route path='/' element={<AddData/>} />
       <Route path='/retrive' element={<Retrive/>} />
     </Routes>      
       </BrowserRouter>
