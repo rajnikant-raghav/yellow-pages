@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav>
-        <h2>Yellow <span>Pages</span></h2>
+        <Link style={{textDecoration:'none'}} to={'/'}><h2>Yellow <span>Pages</span></h2></Link>
         <div>
-            <Link to="/"><button>Add User</button></Link>
+            <Link to="/adduser"><button>Add User</button></Link>
             <Link to="/retrive"><button>Retrive User</button></Link>
         </div>
     </nav>

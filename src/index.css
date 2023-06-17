@@ -11,6 +11,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(225, 146, 10);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 nav span {
@@ -124,4 +125,23 @@ table tbody tr input:focus{
 position: absolute;
 left: 30px;
 top: 36%;
+}
+
+
+.home{
+  background-color:  rgb(64, 202, 237);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home button{
+ background-color: rgb(234, 124, 6);
+ border: none;
+ padding: 10px 20px 10px 20px ;
+ font-size: 20px;
+ cursor: pointer;
+ border-radius: 5px;
+ color: white;
 }
